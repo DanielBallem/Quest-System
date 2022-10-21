@@ -49,7 +49,7 @@ To make this as generic and useful as possible, the quest system will sit on top
 Game objects that update quests can import the package needed to do so [will update name here]. To update a quest, a single function is called `markEvent()`. The intention is that any event that can be tracked, will always mark (mock emit) an event. 
 
 If no quests are listening to it, nothing will happen. This check is done in `O(1)` time.  
-If quests are listening to an emitted event, the quest manage will trigger an update, and each quest will be updated accordingly.
+If quests are listening to an emitted event, the quest manager will trigger an update, and each quest will be updated accordingly.
 
 **Example emits:**
 ```
