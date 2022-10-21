@@ -67,7 +67,7 @@ boxTrigger: markEvent("entered_X");
 ```
 ### Why is this useful?
 
-If it isn't clear, entire quests listening to the same events can all be updated with single event calls. No need for referencing quests or updating anything by hand. Your game can exist as it is, and with single method calls update progress accordingly.
+If it isn't clear, entire quests listening to the same events can all be updated with single event calls. No need for referencing quests or updating anything by hand. Your game can exist as it is, and with single method calls progress updates accordingly.
 
 ### More to come...
 
