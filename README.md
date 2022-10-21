@@ -48,11 +48,11 @@ To make this as generic and useful as possible, the quest system will sit on top
 **What developers need to do:**
 Game objects that update quests can import the package needed to do so [will update name here]. To update a quest, a single function is called `markEvent()`. The intention is that any event that can be tracked, will always mark (mock emit) an event. 
 
-If no quests are listening to it, nothing will happen. This check is done in O(1) time.  
+If no quests are listening to it, nothing will happen. This check is done in `O(1)` time.  
 If quests are listening to an emitted event, the quest manage will trigger an update, and each quest will be updated accordingly.
 
 **Example emits:**
-
+```
 Quest: Jump 10 times.
 Player: markEvent("player_jump"). Triggered every time the player jumps.
 
@@ -64,7 +64,7 @@ Orc: markEvent("orc_killed"). Triggered every time an orc's health reaches 0.
 
 Quest: Walk to X location.
 boxTrigger: markEvent("entered_X");
-
+```
 ### Why is this useful?
 
 If it isn't clear, entire quests listening to the same events can all be updated with single event calls. No need for referencing quests or updating anything by hand. Your game can exist as it is, and with single method calls update progress accordingly.
