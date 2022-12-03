@@ -77,3 +77,9 @@ If it isn't clear, entire quests listening to the same events can all be updated
 ## Quest Structure
 
 ![QuestDataStructure](https://user-images.githubusercontent.com/33844493/197097237-60af9b28-019e-43e9-9cc5-ee24e23753dd.jpg)
+
+## Sample project (Will complete when finished)
+
+While the data structure is there, the example doesn't build a comrehensive usecase as of yet - only a simple one. I might rework this demo and structure, and when it's finalized I'll then complete the sample.
+
+
