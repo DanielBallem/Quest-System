@@ -1,11 +1,11 @@
-# Quest-System (Work in progress)
+# Quest-System Data Structure
 
 This project provides a module dedicated to storing and managing quests. This design lends itself to a few useful properties, which led to the motivation behind completing it in the first place.
 
 ## Why use this module?
 
 1. Designed with easability from a development perspective in mind. 
-    - Your game can exist completely seperately from the quest system. Game objects call simple 'events' to the quest manager, quests are updated accordingly.
+    - Your game can exist completely seperate from the quest system. Game objects make simple calls to the quest manager, quests are updated accordingly.
     - Flexible enough to be used in any use-case. Main quests, subquests, daily/weekly challenges. You can build any game around this quest manager.
     - Unit tests with Unity's testing framework.
 2. Hierarchical structure.
