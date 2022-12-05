@@ -1,10 +1,9 @@
 {
     "name": "QuestTests",
-    "references": ["QuestAssembly"],
+    "references": [
+        "QuestAssembly"
+    ],
     "optionalUnityReferences": [
         "TestAssemblies"
-    ],
-    "includePlatforms": [
-        "Editor"
     ]
 }

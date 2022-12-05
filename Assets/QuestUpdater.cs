@@ -13,6 +13,6 @@ public class QuestUpdater : MonoBehaviour
     }
 
     protected void markEvent(string eventId) { 
-        qm.markEvent(eventId);
+        //qm.markEvent(eventId);
     }
 }

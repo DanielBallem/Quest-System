@@ -8,30 +8,6 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_PixelRect:
-    serializedVersion: 2
-    x: 1003
-    y: 355
-    width: 641
-    height: 491
-  m_ShowMode: 0
-  m_Title: Project Settings
-  m_RootView: {fileID: 4}
-  m_MinSize: {x: 310, y: 221}
-  m_MaxSize: {x: 4000, y: 4021}
-  m_Maximized: 0
---- !u!114 &2
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -43,62 +19,12 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Hierarchy
-  m_RootView: {fileID: 9}
+  m_Title: Scene
+  m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
---- !u!114 &3
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectSettingsWindow
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 641
-    height: 491
-  m_MinSize: {x: 310, y: 221}
-  m_MaxSize: {x: 4000, y: 4021}
-  m_ActualView: {fileID: 15}
-  m_Panes:
-  - {fileID: 15}
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &4
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 3}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 641
-    height: 491
-  m_MinSize: {x: 310, y: 221}
-  m_MaxSize: {x: 4000, y: 4021}
-  vertical: 0
-  controlID: 5898
---- !u!114 &5
+--- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -111,8 +37,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 12}
-  - {fileID: 6}
+  - {fileID: 9}
+  - {fileID: 3}
   m_Position:
     serializedVersion: 2
     x: 0
@@ -122,8 +48,8 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 16
---- !u!114 &6
+  controlID: 43
+--- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -142,15 +68,15 @@ MonoBehaviour:
     y: 0
     width: 587
     height: 947
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 16}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 12}
   m_Panes:
-  - {fileID: 18}
-  - {fileID: 16}
+  - {fileID: 14}
+  - {fileID: 12}
   m_Selected: 1
   m_LastSelected: 0
---- !u!114 &7
+--- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -171,12 +97,12 @@ MonoBehaviour:
     height: 541
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 19}
+  m_ActualView: {fileID: 15}
   m_Panes:
-  - {fileID: 19}
+  - {fileID: 15}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &8
+--- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -186,7 +112,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ConsoleWindow
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -195,15 +121,15 @@ MonoBehaviour:
     y: 541
     width: 1333
     height: 406
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 22}
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 13}
   m_Panes:
-  - {fileID: 17}
-  - {fileID: 22}
-  m_Selected: 1
-  m_LastSelected: 0
---- !u!114 &9
+  - {fileID: 13}
+  - {fileID: 18}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -216,9 +142,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 10}
-  - {fileID: 5}
-  - {fileID: 11}
+  - {fileID: 7}
+  - {fileID: 2}
+  - {fileID: 8}
   m_Position:
     serializedVersion: 2
     x: 0
@@ -231,7 +157,7 @@ MonoBehaviour:
   m_TopViewHeight: 30
   m_UseBottomView: 1
   m_BottomViewHeight: 20
---- !u!114 &10
+--- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -253,7 +179,7 @@ MonoBehaviour:
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LastLoadedLayoutName: 
---- !u!114 &11
+--- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -274,7 +200,7 @@ MonoBehaviour:
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
---- !u!114 &12
+--- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -287,8 +213,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 13}
-  - {fileID: 8}
+  - {fileID: 10}
+  - {fileID: 5}
   m_Position:
     serializedVersion: 2
     x: 0
@@ -298,8 +224,8 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 17
---- !u!114 &13
+  controlID: 44
+--- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -312,8 +238,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 7}
-  - {fileID: 14}
+  - {fileID: 4}
+  - {fileID: 11}
   m_Position:
     serializedVersion: 2
     x: 0
@@ -323,8 +249,8 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 18
---- !u!114 &14
+  controlID: 45
+--- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -345,68 +271,13 @@ MonoBehaviour:
     height: 541
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 20}
+  m_ActualView: {fileID: 16}
   m_Panes:
-  - {fileID: 20}
-  - {fileID: 21}
+  - {fileID: 16}
+  - {fileID: 17}
   m_Selected: 0
   m_LastSelected: 1
---- !u!114 &15
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 13854, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 310, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Project Settings
-    m_Image: {fileID: -5712115415447495865, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 1003
-    y: 355
-    width: 641
-    height: 470
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-  m_PosLeft: {x: 0, y: 0}
-  m_PosRight: {x: 0, y: 0}
-  m_Scope: 1
-  m_SplitterFlex: 0.2
-  m_SearchText: 
-  m_TreeViewState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a73eced7
-    m_LastClickedID: -674349401
-    m_ExpandedIDs: a01a5fa600000000
-    m_RenameOverlay:
-      m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
-      m_EditFieldRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      m_UserData: 0
-      m_IsWaitingForDelay: 0
-      m_IsRenaming: 0
-      m_OriginalEventType: 11
-      m_IsRenamingFilename: 0
-      m_ClientGUIView: {fileID: 0}
-    m_SearchString: 
---- !u!114 &16
+--- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -435,7 +306,7 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
   m_Spl:
-    ID: 132
+    ID: 128
     splitterInitialOffset: 0
     currentActiveSplitter: -1
     realSizes:
@@ -458,16 +329,16 @@ MonoBehaviour:
     oldMinSizes: 
     oldMaxSizes: 
     oldSplitSize: 0
-  m_TestTypeToolbarIndex: 1
+  m_TestTypeToolbarIndex: 0
   m_PlayModeTestListGUI:
-    m_Window: {fileID: 16}
+    m_Window: {fileID: 12}
     m_NewResultList:
     - id: 1009
       uniqueId: '[questtest][suite]'
       name: questtest
       fullName: questtest
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.1172449
       messages: 
       output: 
       stacktrace: 
@@ -478,13 +349,257 @@ MonoBehaviour:
       categories: []
       parentId: 
       parentUniqueId: 
-    m_ResultText: 
+    - id: 1004
+      uniqueId: '[QuestTests][C:/Users/Danie/Documents/portfolio/Quest-System/Library/ScriptAssemblies/QuestTests.dll][suite]'
+      name: QuestTests.dll
+      fullName: C:/Users/Danie/Documents/portfolio/Quest-System/Library/ScriptAssemblies/QuestTests.dll
+      resultStatus: 1
+      duration: 0.0262844
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[questtest][suite]'
+    - id: 1001
+      uniqueId: QuestTests.dll/[QuestTests][suite]
+      name: QuestTests
+      fullName: QuestTests
+      resultStatus: 1
+      duration: 0.0229619
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1004
+      parentUniqueId: '[QuestTests][C:/Users/Danie/Documents/portfolio/Quest-System/Library/ScriptAssemblies/QuestTests.dll][suite]'
+    - id: 1013
+      uniqueId: QuestTests.dll/QuestTests/[QuestTests][QuestTests.ParentClassesWithNoChildrenAreVacuouslyComplete][suite]
+      name: ParentClassesWithNoChildrenAreVacuouslyComplete
+      fullName: QuestTests.ParentClassesWithNoChildrenAreVacuouslyComplete
+      resultStatus: 1
+      duration: 0.0160981
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1001
+      parentUniqueId: QuestTests.dll/[QuestTests][suite]
+    - id: 1003
+      uniqueId: QuestTests.dll/QuestTests/ParentClassesWithNoChildrenAreVacuouslyComplete/[QuestTests][QuestTests.ParentClassesWithNoChildrenAreVacuouslyComplete(ParentQuest)]
+      name: ParentClassesWithNoChildrenAreVacuouslyComplete(ParentQuest)
+      fullName: QuestTests.ParentClassesWithNoChildrenAreVacuouslyComplete(ParentQuest)
+      resultStatus: 1
+      duration: 0.0084287
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1013
+      parentUniqueId: QuestTests.dll/QuestTests/[QuestTests][QuestTests.ParentClassesWithNoChildrenAreVacuouslyComplete][suite]
+    - id: 1004
+      uniqueId: QuestTests.dll/QuestTests/ParentClassesWithNoChildrenAreVacuouslyComplete/[QuestTests][QuestTests.ParentClassesWithNoChildrenAreVacuouslyComplete(ParentQuest)]2
+      name: ParentClassesWithNoChildrenAreVacuouslyComplete(ParentQuest)
+      fullName: QuestTests.ParentClassesWithNoChildrenAreVacuouslyComplete(ParentQuest
+        GeneratedTestCase2)
+      resultStatus: 1
+      duration: 0.0000886
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1013
+      parentUniqueId: QuestTests.dll/QuestTests/[QuestTests][QuestTests.ParentClassesWithNoChildrenAreVacuouslyComplete][suite]
+    - id: 1005
+      uniqueId: QuestTests.dll/QuestTests/ParentClassesWithNoChildrenAreVacuouslyComplete/[QuestTests][QuestTests.ParentClassesWithNoChildrenAreVacuouslyComplete(ParentQuest)]3
+      name: ParentClassesWithNoChildrenAreVacuouslyComplete(ParentQuest)
+      fullName: QuestTests.ParentClassesWithNoChildrenAreVacuouslyComplete(ParentQuest
+        GeneratedTestCase3)
+      resultStatus: 1
+      duration: 0.0000627
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1013
+      parentUniqueId: QuestTests.dll/QuestTests/[QuestTests][QuestTests.ParentClassesWithNoChildrenAreVacuouslyComplete][suite]
+    - id: 1006
+      uniqueId: QuestTests.dll/QuestTests/ParentClassesWithNoChildrenAreVacuouslyComplete/[QuestTests][QuestTests.ParentClassesWithNoChildrenAreVacuouslyComplete(ParentQuest)]4
+      name: ParentClassesWithNoChildrenAreVacuouslyComplete(ParentQuest)
+      fullName: QuestTests.ParentClassesWithNoChildrenAreVacuouslyComplete(ParentQuest
+        GeneratedTestCase4)
+      resultStatus: 1
+      duration: 0.0000492
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1013
+      parentUniqueId: QuestTests.dll/QuestTests/[QuestTests][QuestTests.ParentClassesWithNoChildrenAreVacuouslyComplete][suite]
+    - id: 1007
+      uniqueId: QuestTests.dll/QuestTests/ParentClassesWithNoChildrenAreVacuouslyComplete/[QuestTests][QuestTests.ParentClassesWithNoChildrenAreVacuouslyComplete(ParentQuest)]5
+      name: ParentClassesWithNoChildrenAreVacuouslyComplete(ParentQuest)
+      fullName: QuestTests.ParentClassesWithNoChildrenAreVacuouslyComplete(ParentQuest
+        GeneratedTestCase5)
+      resultStatus: 1
+      duration: 0.0000503
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1013
+      parentUniqueId: QuestTests.dll/QuestTests/[QuestTests][QuestTests.ParentClassesWithNoChildrenAreVacuouslyComplete][suite]
+    - id: 1008
+      uniqueId: QuestTests.dll/QuestTests/ParentClassesWithNoChildrenAreVacuouslyComplete/[QuestTests][QuestTests.ParentClassesWithNoChildrenAreVacuouslyComplete(ParentQuest)]6
+      name: ParentClassesWithNoChildrenAreVacuouslyComplete(ParentQuest)
+      fullName: QuestTests.ParentClassesWithNoChildrenAreVacuouslyComplete(ParentQuest
+        GeneratedTestCase6)
+      resultStatus: 1
+      duration: 0.0000508
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1013
+      parentUniqueId: QuestTests.dll/QuestTests/[QuestTests][QuestTests.ParentClassesWithNoChildrenAreVacuouslyComplete][suite]
+    - id: 1009
+      uniqueId: QuestTests.dll/QuestTests/ParentClassesWithNoChildrenAreVacuouslyComplete/[QuestTests][QuestTests.ParentClassesWithNoChildrenAreVacuouslyComplete(ParentQuest)]7
+      name: ParentClassesWithNoChildrenAreVacuouslyComplete(ParentQuest)
+      fullName: QuestTests.ParentClassesWithNoChildrenAreVacuouslyComplete(ParentQuest
+        GeneratedTestCase7)
+      resultStatus: 1
+      duration: 0.0000495
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1013
+      parentUniqueId: QuestTests.dll/QuestTests/[QuestTests][QuestTests.ParentClassesWithNoChildrenAreVacuouslyComplete][suite]
+    - id: 1010
+      uniqueId: QuestTests.dll/QuestTests/ParentClassesWithNoChildrenAreVacuouslyComplete/[QuestTests][QuestTests.ParentClassesWithNoChildrenAreVacuouslyComplete(ParentQuest)]8
+      name: ParentClassesWithNoChildrenAreVacuouslyComplete(ParentQuest)
+      fullName: QuestTests.ParentClassesWithNoChildrenAreVacuouslyComplete(ParentQuest
+        GeneratedTestCase8)
+      resultStatus: 1
+      duration: 0.0000463
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1013
+      parentUniqueId: QuestTests.dll/QuestTests/[QuestTests][QuestTests.ParentClassesWithNoChildrenAreVacuouslyComplete][suite]
+    - id: 1011
+      uniqueId: QuestTests.dll/QuestTests/ParentClassesWithNoChildrenAreVacuouslyComplete/[QuestTests][QuestTests.ParentClassesWithNoChildrenAreVacuouslyComplete(ParentQuest)]9
+      name: ParentClassesWithNoChildrenAreVacuouslyComplete(ParentQuest)
+      fullName: QuestTests.ParentClassesWithNoChildrenAreVacuouslyComplete(ParentQuest
+        GeneratedTestCase9)
+      resultStatus: 1
+      duration: 0.0000518
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1013
+      parentUniqueId: QuestTests.dll/QuestTests/[QuestTests][QuestTests.ParentClassesWithNoChildrenAreVacuouslyComplete][suite]
+    - id: 1012
+      uniqueId: QuestTests.dll/QuestTests/ParentClassesWithNoChildrenAreVacuouslyComplete/[QuestTests][QuestTests.ParentClassesWithNoChildrenAreVacuouslyComplete(ParentQuest)]10
+      name: ParentClassesWithNoChildrenAreVacuouslyComplete(ParentQuest)
+      fullName: QuestTests.ParentClassesWithNoChildrenAreVacuouslyComplete(ParentQuest
+        GeneratedTestCase10)
+      resultStatus: 1
+      duration: 0.0000519
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1013
+      parentUniqueId: QuestTests.dll/QuestTests/[QuestTests][QuestTests.ParentClassesWithNoChildrenAreVacuouslyComplete][suite]
+    - id: 1002
+      uniqueId: QuestTests.dll/QuestTests/[QuestTests][QuestTests.ParentQuestWithNoSubquestsIsVacuouslyComplete]
+      name: ParentQuestWithNoSubquestsIsVacuouslyComplete
+      fullName: QuestTests.ParentQuestWithNoSubquestsIsVacuouslyComplete
+      resultStatus: 1
+      duration: 0.0001247
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: QuestTests.dll/[QuestTests][suite]
+    m_ResultText: ParentClassesWithNoChildrenAreVacuouslyComplete (0.016s)
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 9ce99b7bffffff7f
+      m_SelectedIDs: 98d348ab
+      m_LastClickedID: -1421290600
+      m_ExpandedIDs: df4038c1f689392b9ce99b7bffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -512,14 +627,14 @@ MonoBehaviour:
       - Uncategorized
     m_SelectedOption: 0
   m_EditModeTestListGUI:
-    m_Window: {fileID: 16}
+    m_Window: {fileID: 12}
     m_NewResultList:
     - id: 1000
       uniqueId: '[questtest][suite]'
       name: questtest
       fullName: questtest
-      resultStatus: 1
-      duration: 0.0731975
+      resultStatus: 0
+      duration: 0.0642238
       messages: 
       output: 
       stacktrace: 
@@ -530,513 +645,7 @@ MonoBehaviour:
       categories: []
       parentId: 
       parentUniqueId: 
-    - id: 1004
-      uniqueId: '[QuestTests][C:/Users/Danie/Documents/portfolio/small-explorations/BooleanObjects/questtest/Library/ScriptAssemblies/QuestTests.dll][suite]'
-      name: QuestTests.dll
-      fullName: C:/Users/Danie/Documents/portfolio/small-explorations/BooleanObjects/questtest/Library/ScriptAssemblies/QuestTests.dll
-      resultStatus: 1
-      duration: 0.0510445
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1000
-      parentUniqueId: '[questtest][suite]'
-    - id: 1014
-      uniqueId: QuestTests.dll/[QuestTests][MultiQuestTests][suite]
-      name: MultiQuestTests
-      fullName: MultiQuestTests
-      resultStatus: 1
-      duration: 0.0324114
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1016
-      parentUniqueId: '[QuestTests][C:/Users/Danie/Documents/portfolio/small-explorations/BooleanObjects/questtest/Library/ScriptAssemblies/QuestTests.dll][suite]'
-    - id: 1016
-      uniqueId: QuestTests.dll/MultiQuestTests/[QuestTests][MultiQuestTests.addQuest]
-      name: addQuest
-      fullName: MultiQuestTests.addQuest
-      resultStatus: 1
-      duration: 0.0124146
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1014
-      parentUniqueId: QuestTests.dll/[QuestTests][MultiQuestTests][suite]
-    - id: 1018
-      uniqueId: QuestTests.dll/MultiQuestTests/[QuestTests][MultiQuestTests.checkAndUpdateCompletionStatus_False]
-      name: checkAndUpdateCompletionStatus_False
-      fullName: MultiQuestTests.checkAndUpdateCompletionStatus_False
-      resultStatus: 1
-      duration: 0.000975
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1014
-      parentUniqueId: QuestTests.dll/[QuestTests][MultiQuestTests][suite]
-    - id: 1021
-      uniqueId: QuestTests.dll/MultiQuestTests/[QuestTests][MultiQuestTests.checkAndUpdateCompletionStatus_FalseMultiChildren]
-      name: checkAndUpdateCompletionStatus_FalseMultiChildren
-      fullName: MultiQuestTests.checkAndUpdateCompletionStatus_FalseMultiChildren
-      resultStatus: 1
-      duration: 0.0005104
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1014
-      parentUniqueId: QuestTests.dll/[QuestTests][MultiQuestTests][suite]
-    - id: 1020
-      uniqueId: QuestTests.dll/MultiQuestTests/[QuestTests][MultiQuestTests.checkAndUpdateCompletionStatus_FalseOtherCase]
-      name: checkAndUpdateCompletionStatus_FalseOtherCase
-      fullName: MultiQuestTests.checkAndUpdateCompletionStatus_FalseOtherCase
-      resultStatus: 1
-      duration: 0.0001792
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1014
-      parentUniqueId: QuestTests.dll/[QuestTests][MultiQuestTests][suite]
-    - id: 1019
-      uniqueId: QuestTests.dll/MultiQuestTests/[QuestTests][MultiQuestTests.checkAndUpdateCompletionStatus_Success]
-      name: checkAndUpdateCompletionStatus_Success
-      fullName: MultiQuestTests.checkAndUpdateCompletionStatus_Success
-      resultStatus: 1
-      duration: 0.0001393
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1014
-      parentUniqueId: QuestTests.dll/[QuestTests][MultiQuestTests][suite]
-    - id: 1017
-      uniqueId: QuestTests.dll/MultiQuestTests/[QuestTests][MultiQuestTests.getSubquests_noQuests]
-      name: getSubquests_noQuests
-      fullName: MultiQuestTests.getSubquests_noQuests
-      resultStatus: 1
-      duration: 0.0014359
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1014
-      parentUniqueId: QuestTests.dll/[QuestTests][MultiQuestTests][suite]
-    - id: 1015
-      uniqueId: QuestTests.dll/MultiQuestTests/[QuestTests][MultiQuestTests.Initialization]
-      name: Initialization
-      fullName: MultiQuestTests.Initialization
-      resultStatus: 1
-      duration: 0.0003225
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1014
-      parentUniqueId: QuestTests.dll/[QuestTests][MultiQuestTests][suite]
-    - id: 1017
-      uniqueId: QuestTests.dll/MultiQuestTests/[QuestTests][MultiQuestTests.removeQuest]
-      name: removeQuest
-      fullName: MultiQuestTests.removeQuest
-      resultStatus: 1
-      duration: 0.0011406
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1014
-      parentUniqueId: QuestTests.dll/[QuestTests][MultiQuestTests][suite]
-    - id: 1001
-      uniqueId: QuestTests.dll/[QuestTests][ObjectiveQuestTests][suite]
-      name: ObjectiveQuestTests
-      fullName: ObjectiveQuestTests
-      resultStatus: 1
-      duration: 0.0104056
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1023
-      parentUniqueId: '[QuestTests][C:/Users/Danie/Documents/portfolio/small-explorations/BooleanObjects/questtest/Library/ScriptAssemblies/QuestTests.dll][suite]'
-    - id: 1004
-      uniqueId: QuestTests.dll/ObjectiveQuestTests/[QuestTests][ObjectiveQuestTests.AddItem_Duplicate]
-      name: AddItem_Duplicate
-      fullName: ObjectiveQuestTests.AddItem_Duplicate
-      resultStatus: 1
-      duration: 0.0001849
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: QuestTests.dll/[QuestTests][ObjectiveQuestTests][suite]
-    - id: 1005
-      uniqueId: QuestTests.dll/ObjectiveQuestTests/[QuestTests][ObjectiveQuestTests.AddItem_DuplicateItemId]
-      name: AddItem_DuplicateItemId
-      fullName: ObjectiveQuestTests.AddItem_DuplicateItemId
-      resultStatus: 1
-      duration: 0.0001361
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: QuestTests.dll/[QuestTests][ObjectiveQuestTests][suite]
-    - id: 1003
-      uniqueId: QuestTests.dll/ObjectiveQuestTests/[QuestTests][ObjectiveQuestTests.AddItem_Success]
-      name: AddItem_Success
-      fullName: ObjectiveQuestTests.AddItem_Success
-      resultStatus: 1
-      duration: 0.0015895
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: QuestTests.dll/[QuestTests][ObjectiveQuestTests][suite]
-    - id: 1011
-      uniqueId: QuestTests.dll/ObjectiveQuestTests/[QuestTests][ObjectiveQuestTests.getItems_EmptyList]
-      name: getItems_EmptyList
-      fullName: ObjectiveQuestTests.getItems_EmptyList
-      resultStatus: 1
-      duration: 0.0001428
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: QuestTests.dll/[QuestTests][ObjectiveQuestTests][suite]
-    - id: 1012
-      uniqueId: QuestTests.dll/ObjectiveQuestTests/[QuestTests][ObjectiveQuestTests.getItems_NonEmptyList]
-      name: getItems_NonEmptyList
-      fullName: ObjectiveQuestTests.getItems_NonEmptyList
-      resultStatus: 1
-      duration: 0.0001972
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: QuestTests.dll/[QuestTests][ObjectiveQuestTests][suite]
-    - id: 1002
-      uniqueId: QuestTests.dll/ObjectiveQuestTests/[QuestTests][ObjectiveQuestTests.Initialization]
-      name: Initialization
-      fullName: ObjectiveQuestTests.Initialization
-      resultStatus: 1
-      duration: 0.0002693
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: QuestTests.dll/[QuestTests][ObjectiveQuestTests][suite]
-    - id: 1006
-      uniqueId: QuestTests.dll/ObjectiveQuestTests/[QuestTests][ObjectiveQuestTests.IsComplete_UponInitialization]
-      name: IsComplete_UponInitialization
-      fullName: ObjectiveQuestTests.IsComplete_UponInitialization
-      resultStatus: 1
-      duration: 0.0001046
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: QuestTests.dll/[QuestTests][ObjectiveQuestTests][suite]
-    - id: 1008
-      uniqueId: QuestTests.dll/ObjectiveQuestTests/[QuestTests][ObjectiveQuestTests.IsComplete_UponUpdatingObjectiveValue]
-      name: IsComplete_UponUpdatingObjectiveValue
-      fullName: ObjectiveQuestTests.IsComplete_UponUpdatingObjectiveValue
-      resultStatus: 1
-      duration: 0.0001605
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: QuestTests.dll/[QuestTests][ObjectiveQuestTests][suite]
-    - id: 1007
-      uniqueId: QuestTests.dll/ObjectiveQuestTests/[QuestTests][ObjectiveQuestTests.IsIncomplete_UponInitialization]
-      name: IsIncomplete_UponInitialization
-      fullName: ObjectiveQuestTests.IsIncomplete_UponInitialization
-      resultStatus: 1
-      duration: 0.000103
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: QuestTests.dll/[QuestTests][ObjectiveQuestTests][suite]
-    - id: 1009
-      uniqueId: QuestTests.dll/ObjectiveQuestTests/[QuestTests][ObjectiveQuestTests.IsIncomplete_UponUpdatingObjectiveValue]
-      name: IsIncomplete_UponUpdatingObjectiveValue
-      fullName: ObjectiveQuestTests.IsIncomplete_UponUpdatingObjectiveValue
-      resultStatus: 1
-      duration: 0.000228
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: QuestTests.dll/[QuestTests][ObjectiveQuestTests][suite]
-    - id: 1010
-      uniqueId: QuestTests.dll/ObjectiveQuestTests/[QuestTests][ObjectiveQuestTests.IsIncomplete_UponUpdatingOneObjectiveValue]
-      name: IsIncomplete_UponUpdatingOneObjectiveValue
-      fullName: ObjectiveQuestTests.IsIncomplete_UponUpdatingOneObjectiveValue
-      resultStatus: 1
-      duration: 0.0001441
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: QuestTests.dll/[QuestTests][ObjectiveQuestTests][suite]
-    - id: 1013
-      uniqueId: QuestTests.dll/ObjectiveQuestTests/[QuestTests][ObjectiveQuestTests.updatingCounts]
-      name: updatingCounts
-      fullName: ObjectiveQuestTests.updatingCounts
-      resultStatus: 1
-      duration: 0.0004421
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: QuestTests.dll/[QuestTests][ObjectiveQuestTests][suite]
-    - id: 1023
-      uniqueId: QuestTests.dll/[QuestTests][SequenceQuests][suite]
-      name: SequenceQuests
-      fullName: SequenceQuests
-      resultStatus: 1
-      duration: 0.0061614
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1025
-      parentUniqueId: '[QuestTests][C:/Users/Danie/Documents/portfolio/small-explorations/BooleanObjects/questtest/Library/ScriptAssemblies/QuestTests.dll][suite]'
-    - id: 1025
-      uniqueId: QuestTests.dll/SequenceQuests/[QuestTests][SequenceQuests.addQuests_markAsAvailable]
-      name: addQuests_markAsAvailable
-      fullName: SequenceQuests.addQuests_markAsAvailable
-      resultStatus: 1
-      duration: 0.000731
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1023
-      parentUniqueId: QuestTests.dll/[QuestTests][SequenceQuests][suite]
-    - id: 1026
-      uniqueId: QuestTests.dll/SequenceQuests/[QuestTests][SequenceQuests.completionStatus]
-      name: completionStatus
-      fullName: SequenceQuests.completionStatus
-      resultStatus: 1
-      duration: 0.0002154
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1023
-      parentUniqueId: QuestTests.dll/[QuestTests][SequenceQuests][suite]
-    - id: 1027
-      uniqueId: QuestTests.dll/SequenceQuests/[QuestTests][SequenceQuests.completionStatus_OneIsAlreadyComplete]
-      name: completionStatus_OneIsAlreadyComplete
-      fullName: SequenceQuests.completionStatus_OneIsAlreadyComplete
-      resultStatus: 1
-      duration: 0.0001515
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1023
-      parentUniqueId: QuestTests.dll/[QuestTests][SequenceQuests][suite]
-    - id: 1024
-      uniqueId: QuestTests.dll/SequenceQuests/[QuestTests][SequenceQuests.Initialization]
-      name: Initialization
-      fullName: SequenceQuests.Initialization
-      resultStatus: 1
-      duration: 0.0002221
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1023
-      parentUniqueId: QuestTests.dll/[QuestTests][SequenceQuests][suite]
-    - id: 1028
-      uniqueId: QuestTests.dll/SequenceQuests/[QuestTests][SequenceQuests.removeQuest_willMarkAsComplete]
-      name: removeQuest_willMarkAsComplete
-      fullName: SequenceQuests.removeQuest_willMarkAsComplete
-      resultStatus: 1
-      duration: 0.0002988
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1023
-      parentUniqueId: QuestTests.dll/[QuestTests][SequenceQuests][suite]
-    - id: 1029
-      uniqueId: QuestTests.dll/SequenceQuests/[QuestTests][SequenceQuests.removeQuest_willSetCurrentQuestToLastQuestIfOutOfRange]
-      name: removeQuest_willSetCurrentQuestToLastQuestIfOutOfRange
-      fullName: SequenceQuests.removeQuest_willSetCurrentQuestToLastQuestIfOutOfRange
-      resultStatus: 1
-      duration: 0.0001538
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1023
-      parentUniqueId: QuestTests.dll/[QuestTests][SequenceQuests][suite]
-    m_ResultText: updatingCounts (0.000s)
+    m_ResultText: 
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
@@ -1068,7 +677,7 @@ MonoBehaviour:
       selectedCategoryMask: 0
       availableCategories:
       - Uncategorized
---- !u!114 &17
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1109,22 +718,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/QuestSystem
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/QuestSystem
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\Danie\Documents\portfolio\small-explorations\BooleanObjects\questtest
+  m_LastProjectPath: C:\Users\Danie\Documents\portfolio\Quest-System
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: f4590000
-    m_LastClickedID: 23028
-    m_ExpandedIDs: 00000000f459000000ca9a3b
+    m_SelectedIDs: 2c5a0000
+    m_LastClickedID: 23084
+    m_ExpandedIDs: 000000002a5a00002c5a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1152,7 +761,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f4590000
+    m_ExpandedIDs: 000000002a5a00002c5a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1196,7 +805,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 8}
+      m_ClientGUIView: {fileID: 0}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -1208,7 +817,7 @@ MonoBehaviour:
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
---- !u!114 &18
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1249,7 +858,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &19
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1282,7 +891,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 9a6affffd48dffff5a8effff0090fffff6b5ffffe2d3ffff64d4ffff74d6ffffc8d9ffff40dbffffa8dcffff76ddffff34deffff90dffffffce0ffffd6e1ffff42e3ffff56e5ffffcae6ffffd2e8ffff2eeaffffdaecffff9eeffffff6f0ffff48f2ffff20f4ffff7cf5ffff86f7ffff46f9ffff36fbfffff4ffffff0a610000
+      m_ExpandedIDs: beeaffff06ebffffa2ecffff52eeffff9aeeffffe6efffff6ef2ffffb6f2ffff3ef4ffff56f5ffff9ef5ffffe4f6ffff36fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1298,7 +907,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 7}
+        m_ClientGUIView: {fileID: 4}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -1306,7 +915,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &20
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1611,7 +1220,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &21
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1703,7 +1312,7 @@ MonoBehaviour:
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &22
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
