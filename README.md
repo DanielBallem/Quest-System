@@ -76,9 +76,7 @@ If it isn't clear, entire quests listening to the same events can all be updated
 ---
 ## Quest Structure
 
-UPDATE: This diagram is outdated. I've made it much simpler now, but more work is needed to finalize it.
-
-![QuestDataStructure](https://user-images.githubusercontent.com/33844493/197097237-60af9b28-019e-43e9-9cc5-ee24e23753dd.jpg)
+![image](https://user-images.githubusercontent.com/33844493/206791134-142df14c-38a1-43ea-8cb1-475c04e9b73f.png)
 
 ## Sample project (Will complete when finished)
 
